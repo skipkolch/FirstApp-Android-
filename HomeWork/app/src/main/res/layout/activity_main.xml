@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:text="HOME WORK"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/cornerbuttons"
+        android:text="Linear equation"
+        android:textColor="#fffa" />
+
+    <Button
+        android:id="@+id/Quadratic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quadratic equation"
+        android:textColor="#fffa"
+        android:background="@drawable/cornerbuttons"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/Days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day of week"
+        android:textColor="#fffa"
+        android:background="@drawable/cornerbuttons"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
